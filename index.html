@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centro de Formación Profesional Willy - Malabo, Guinea Ecuatorial</title>
+  <meta name="description" content="Centro de Formación Profesional Willy en Malabo, Guinea Ecuatorial. Ofrecemos programas de formación especializada para el desarrollo profesional.">
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1E40AF',
+            secondary: '#1E293B',
+            accent: '#3B82F6'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+    .hero-section {
+      background: linear-gradient(rgba(30,41,59,0.75), rgba(30,41,59,0.75)), url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    .course-card:hover, .benefit-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl mr-3">W</div>
+        <div>
+          <h1 class="text-xl font-bold text-primary">Centro Willy</h1>
+          <p class="text-xs text-gray-600">Formación Profesional</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex space-x-8">
+        <a href="#inicio" class="hover:text-primary">Inicio</a>
+        <a href="#programas" class="hover:text-primary">Programas</a>
+        <a href="#instalaciones" class="hover:text-primary">Instalaciones</a>
+        <a href="#beneficios" class="hover:text-primary">Beneficios</a>
+        <a href="#contacto" class="hover:text-primary">Contacto</a>
+      </nav>
+      <button class="md:hidden text-gray-700"><i data-feather="menu"></i></button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero-section py-24 md:py-32 text-white text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl md:text-6xl font-bold mb-6">Centro de Formación Profesional Willy</h2>
+      <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Formando profesionales para el futuro en Malabo, Guinea Ecuatorial</p>
+      <div class="flex flex-col md:flex-row justify-center gap-4">
+        <a href="#programas" class="bg-accent hover:bg-blue-600 px-8 py-3 rounded-lg font-medium">Ver Programas</a>
+        <a href="#contacto" class="border-2 border-white hover:bg-white hover:text-primary px-8 py-3 rounded-lg font-medium">Inscríbete</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programas -->
+  <section id="programas" class="py-16">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-primary mb-4">Nuestros Programas</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Ofrecemos programas diseñados para prepararte en áreas clave del desarrollo profesional</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="course-card bg-white p-6 rounded-lg shadow-md text-center transition">
+          <i data-feather="briefcase" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Administración</h3>
+          <p class="text-gray-600">Formación en gestión, liderazgo y organización para empresas modernas.</p>
+        </div>
+        <div class="course-card bg-white p-6 rounded-lg shadow-md text-center transition">
+          <i data-feather="cpu" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Informática</h3>
+          <p class="text-gray-600">Conocimientos prácticos en software, redes y nuevas tecnologías.</p>
+        </div>
+        <div class="course-card bg-white p-6 rounded-lg shadow-md text-center transition">
+          <i data-feather="settings" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Electricidad</h3>
+          <p class="text-gray-600">Capacitación técnica en instalaciones eléctricas seguras y modernas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instalaciones -->
+  <section id="instalaciones" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-primary mb-4">Nuestras Instalaciones</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Un entorno moderno, seguro y cómodo para el aprendizaje de calidad</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80" alt="Aulas modernas" class="rounded-lg shadow-md">
+        <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=800&q=80" alt="Sala de informática" class="rounded-lg shadow-md">
+        <img src="https://images.unsplash.com/photo-1581093588401-22eab6e96c14?auto=format&fit=crop&w=800&q=80" alt="Laboratorio eléctrico" class="rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="beneficios" class="py-16">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-primary mb-4">¿Por qué elegirnos?</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Ventajas que hacen de nuestro centro la mejor opción para tu formación</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="benefit-card bg-white p-6 rounded-lg shadow-md text-center transition">
+          <i data-feather="award" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Calidad Académica</h3>
+          <p class="text-gray-600">Profesores altamente capacitados y programas actualizados.</p>
+        </div>
+        <div class="benefit-card bg-white p-6 rounded-lg shadow-md text-center transition">
+          <i data-feather="users" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Atención Personalizada</h3>
+          <p class="text-gray-600">Grupos reducidos para un mejor acompañamiento.</p>
+        </div>
+        <div class="benefit-card bg-white p-6 rounded-lg shadow-md text-center transition">
+          <i data-feather="target" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Orientación Laboral</h3>
+          <p class="text-gray-600">Te ayudamos a dar el salto al mercado laboral con éxito.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-primary mb-4">Contáctanos</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Estamos aquí para responder tus preguntas y ayudarte en tu proceso de inscripción</p>
+      </div>
+
+      <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Información de Contacto</h3>
+          <ul class="space-y-4">
+            <li class="flex items-center">
+              <i data-feather="map-pin" class="text-primary mr-3"></i>
+              Antigua Asonga, Malabo, Guinea Ecuatorial
+            </li>
+            <li class="flex items-center">
+              <i data-feather="phone" class="text-primary mr-3"></i>
+              222 397 993
+            </li>
+            <li class="flex items-center">
+              <i data-feather="clock" class="text-primary mr-3"></i>
+              Lunes a Viernes: 8:00 AM - 6:00 PM
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-4">Envíanos un Mensaje</h3>
+          <form id="contactForm">
+            <div class="mb-4">
+              <label class="block text-gray-700 mb-2" for="name">Nombre Completo</label>
+              <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:border-primary">
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 mb-2" for="phone">Teléfono</label>
+              <input type="tel" id="phone" class="w-full px-4 py-2 border rounded-lg focus:border-primary">
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 mb-2" for="message">Mensaje</label>
+              <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:border-primary"></textarea>
+            </div>
+            <button type="button" onclick="sendToWhatsApp()" class="w-full bg-primary hover:bg-blue-800 text-white py-3 rounded-lg font-medium">Enviar por WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-secondary text-white py-8 text-center">
+    <h3 class="text-xl font-bold mb-2">Centro de Formación Profesional Willy</h3>
+    <p class="text-gray-300 mb-2">Formando profesionales para el futuro de Guinea Ecuatorial</p>
+    <p class="text-gray-400 text-sm">© 2024 Centro Willy. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    feather.replace();
+    function sendToWhatsApp() {
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const message = document.getElementById('message').value;
+      const text = `Hola, soy ${name}, mi número es ${phone}. Mensaje: ${message}`;
+      const url = `https://wa.me/222397993?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>

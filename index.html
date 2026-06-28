@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio de Willy Wilfrid Jatsa — Técnico Superior en Informática de Redes y Telecomunicaciones | Desarrollador Fullstack. Desarrollo web moderno, redes, programación y docencia." />
+  <meta name="author" content="Willy Wilfrid Jatsa" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Willy Wilfrid Jatsa — Desarrollador Fullstack" />
+  <meta property="og:description" content="Soluciones web modernas, eficientes y funcionales. Redes, programación y diseño." />
+  <meta property="og:image" content="assets/profile.jpg" />
+
+  <title>Willy Wilfrid Jatsa | Desarrollador Fullstack</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="Willy Wilfrid Jatsa - Inicio">
+        <span class="brand__logo">WJ</span>
+        <span class="brand__name">Willy Wilfrid Jatsa</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link is-active">Inicio</a></li>
+          <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+          <li><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="#habilidades" class="nav__link">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contacto" class="btn btn--dark btn--sm header__cta">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Contáctame
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero section" id="inicio">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="badge"><span class="badge__dot"></span> Bienvenido a mi portafolio</span>
+          <h1 class="hero__title">Willy Wilfrid <span class="text-muted">Jatsa</span></h1>
+          <p class="hero__role">Técnico Superior en Informática de Redes y Telecomunicaciones | Desarrollador Fullstack</p>
+          <p class="hero__desc">
+            Apasionado por la tecnología y la enseñanza. Desarrollo soluciones web
+            modernas, eficientes y funcionales. Combino mis conocimientos en redes,
+            programación y diseño para crear experiencias digitales de alto impacto.
+          </p>
+
+          <div class="hero__actions">
+            <a href="assets/cv-willy-wilfrid-jatsa.pdf" class="btn btn--dark" download>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Descargar CV
+            </a>
+            <a href="#contacto" class="btn btn--outline">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              Contáctame
+            </a>
+          </div>
+
+          <ul class="socials">
+            <li><a href="https://github.com/willyelcrack" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.4.5 0 5.9 0 12.5c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 24 12.5C24 5.9 18.6.5 12 .5z"/></svg>
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/willy-wilfrid-jatsa" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33 0-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0z"/></svg>
+            </a></li>
+            <li><a href="https://wa.me/240222397993" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M.06 24l1.69-6.16a11.87 11.87 0 0 1-1.59-5.95C.16 5.34 5.5 0 12.06 0a11.82 11.82 0 0 1 8.41 3.49 11.82 11.82 0 0 1 3.48 8.42c0 6.56-5.34 11.9-11.9 11.9a11.9 11.9 0 0 1-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.45 0 9.89-4.43 9.89-9.88 0-5.46-4.43-9.89-9.89-9.89-5.45 0-9.88 4.43-9.88 9.89 0 2.22.65 3.89 1.74 5.63l-1 3.65 3.74-.99zm11.36-5.29c-.07-.12-.27-.2-.57-.35-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.69.25-1.28.17-1.41z"/></svg>
+            </a></li>
+            <li><a href="mailto:willywilfred2004@gmail.com" aria-label="Correo electrónico">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            </a></li>
+          </ul>
+        </div>
+
+        <div class="hero__media reveal">
+          <div class="hero__photo">
+            <img src="assets/profile.png" alt="Retrato de Willy Wilfrid Jatsa" width="520" height="640" loading="eager"
+                 onerror="this.onerror=null;this.src='assets/profile-placeholder.svg';" />
+          </div>
+          <!-- floating tech icons -->
+          <span class="float-icon float-icon--1" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </span>
+          <span class="float-icon float-icon--2" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </span>
+          <span class="float-icon float-icon--3" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+          </span>
+          <span class="float-icon float-icon--4" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </span>
+          <span class="float-icon float-icon--5" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STATS ===================== -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat reveal">
+          <span class="stat__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </span>
+          <div><strong class="stat__num" data-count="2" data-prefix="+">+2</strong><span class="stat__label">Años de experiencia</span></div>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          </span>
+          <div><strong class="stat__num" data-count="15" data-prefix="+">+15</strong><span class="stat__label">Proyectos completados</span></div>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </span>
+          <div><strong class="stat__num" data-count="10" data-prefix="+">+10</strong><span class="stat__label">Tecnologías dominadas</span></div>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </span>
+          <div><strong class="stat__num" data-count="5" data-prefix="+">+5</strong><span class="stat__label">Estudiantes formados</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT + SERVICES ===================== -->
+    <section class="section" id="sobre-mi">
+      <div class="container about__layout">
+        <!-- About card -->
+        <aside class="card about-card reveal">
+          <div class="card__head">
+            <span class="icon-box">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </span>
+            <h2 class="card__title">Sobre mí</h2>
+          </div>
+          <p class="about-card__text">
+            Soy un profesional comprometido, responsable y en constante aprendizaje.
+            Me especializo en el desarrollo web fullstack, administración de redes y
+            sistemas, y en la enseñanza de informática y ofimática.
+          </p>
+          <p class="about-card__text">
+            Mi objetivo es aportar soluciones tecnológicas innovadoras que generen
+            valor y transformen ideas en realidades.
+          </p>
+
+          <div class="card__head card__head--mt" id="habilidades">
+            <span class="icon-box">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </span>
+            <h3 class="card__title">Lenguajes y Tecnologías</h3>
+          </div>
+          <ul class="tech-grid">
+            <li class="tech"><span class="tech__badge" style="--c:#3776AB">Py</span>Python</li>
+            <li class="tech"><span class="tech__badge" style="--c:#F7DF1E;--fg:#111">JS</span>JavaScript</li>
+            <li class="tech"><span class="tech__badge" style="--c:#E76F00">Jv</span>Java</li>
+            <li class="tech"><span class="tech__badge" style="--c:#61DAFB;--fg:#111">Re</span>React</li>
+            <li class="tech"><span class="tech__badge" style="--c:#E34F26">&lt;&gt;</span>HTML</li>
+            <li class="tech"><span class="tech__badge" style="--c:#1572B6">{ }</span>CSS</li>
+            <li class="tech"><span class="tech__badge" style="--c:#00758F">DB</span>SQL</li>
+          </ul>
+        </aside>
+
+        <!-- Services -->
+        <div class="services" id="servicios">
+          <h2 class="section__title">¿Qué puedo hacer por ti?</h2>
+          <div class="services__grid">
+            <article class="card service reveal">
+              <span class="icon-box">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </span>
+              <h3 class="service__title">Desarrollo Web</h3>
+              <p class="service__text">Sitios web modernos, responsivos y optimizados con las mejores prácticas.</p>
+            </article>
+
+            <article class="card service reveal">
+              <span class="icon-box">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M7 6h10M5 8v2a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V8M12 14v2"/></svg>
+              </span>
+              <h3 class="service__title">Redes y Sistemas</h3>
+              <p class="service__text">Configuración y administración de equipos, redes y servicios de comunicación.</p>
+            </article>
+
+            <article class="card service reveal">
+              <span class="icon-box">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </span>
+              <h3 class="service__title">Programación</h3>
+              <p class="service__text">Desarrollo de aplicaciones con Python, JavaScript, Java, React y más.</p>
+            </article>
+
+            <article class="card service reveal">
+              <span class="icon-box">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg>
+              </span>
+              <h3 class="service__title">Ofimática</h3>
+              <p class="service__text">Dominio del paquete Office, edición de documentos y presentaciones.</p>
+            </article>
+
+            <article class="card service reveal">
+              <span class="icon-box">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </span>
+              <h3 class="service__title">Docencia</h3>
+              <p class="service__text">Profesor de informática y ofimática. Enseñanza práctica y personalizada.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section section--tight" id="proyectos">
+      <div class="container">
+        <div class="projects__head">
+          <h2 class="section__title">Proyectos <span class="text-muted">Destacados</span></h2>
+          <a href="#contacto" class="btn btn--dark btn--sm">Ver todos los proyectos
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="projects__grid">
+          <article class="card project reveal">
+            <div class="project__thumb project__thumb--egmarket">
+              <span class="project__brand">EGMarket</span>
+              <h3>Tu tienda online de confianza</h3>
+              <p>Tecnología, electrodomésticos, moda y mucho más.</p>
+            </div>
+            <div class="project__body">
+              <h3 class="project__name">EGMarket</h3>
+              <p class="project__desc">Tienda online con carrito de compras, pasarela de pago y panel de administración.</p>
+              <ul class="tags">
+                <li class="tag">React</li><li class="tag">Laravel</li><li class="tag">MySQL</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project__thumb project__thumb--ensema">
+              <span class="project__brand">Ensema Group</span>
+              <h3>Soluciones inteligentes para un mundo conectado</h3>
+              <p>Consultoría, formación y tecnología para empresas y emprendedores.</p>
+            </div>
+            <div class="project__body">
+              <h3 class="project__name">Ensema Group</h3>
+              <p class="project__desc">Sitio corporativo con diseño profesional y multi-idioma.</p>
+              <ul class="tags">
+                <li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project__thumb project__thumb--colegio">
+              <span class="project__brand">Colegio Santa Isabel</span>
+              <h3>Educación de calidad para un futuro mejor</h3>
+              <p>Formamos líderes con valores y excelencia académica.</p>
+            </div>
+            <div class="project__body">
+              <h3 class="project__name">Colegio Santa Isabel</h3>
+              <p class="project__desc">Sitio web institucional con gestión de contenidos y formulario de contacto.</p>
+              <ul class="tags">
+                <li class="tag">PHP</li><li class="tag">MySQL</li><li class="tag">Bootstrap</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA / CONTACT ===================== -->
+    <section class="section section--tight" id="contacto">
+      <div class="container">
+        <div class="cta reveal">
+          <div class="cta__text">
+            <span class="cta__icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            </span>
+            <div>
+              <h2 class="cta__title">¿Tienes un proyecto en mente?</h2>
+              <p class="cta__sub">Estoy disponible para colaborar en soluciones innovadoras.</p>
+            </div>
+          </div>
+          <a href="mailto:willywilfred2004@gmail.com" class="btn btn--light">
+            Hablemos
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="brand">
+        <span class="brand__logo brand__logo--light">WJ</span>
+        <span class="brand__name">Willy Wilfrid Jatsa</span>
+      </a>
+      <p class="footer__copy">© <span id="year"></span> Willy Wilfrid Jatsa. Todos los derechos reservados.</p>
+      <ul class="socials socials--footer">
+        <li><a href="https://github.com/willyelcrack" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.4.5 0 5.9 0 12.5c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 24 12.5C24 5.9 18.6.5 12 .5z"/></svg>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/willy-wilfrid-jatsa" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33 0-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0z"/></svg>
+        </a></li>
+        <li><a href="https://wa.me/240000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M.06 24l1.69-6.16a11.87 11.87 0 0 1-1.59-5.95C.16 5.34 5.5 0 12.06 0a11.82 11.82 0 0 1 8.41 3.49 11.82 11.82 0 0 1 3.48 8.42c0 6.56-5.34 11.9-11.9 11.9a11.9 11.9 0 0 1-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.45 0 9.89-4.43 9.89-9.88 0-5.46-4.43-9.89-9.89-9.89-5.45 0-9.88 4.43-9.88 9.89 0 2.22.65 3.89 1.74 5.63l-1 3.65 3.74-.99zm11.36-5.29c-.07-.12-.27-.2-.57-.35-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.69.25-1.28.17-1.41z"/></svg>
+        </a></li>
+        <li><a href="mailto:willywilfred2004@gmail.com" aria-label="Correo electrónico">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+        </a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
